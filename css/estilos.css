@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.bienvenido{
+    font-size: 45px;
+    margin-top: 10px;
+}
+
+.bienvenido2{
+    font-size: 35px;
+    padding:  20px;
+}
+
+.imagen-presentacion{
+    margin: auto;
+    padding: 10px;
+    display: block;
+
+}
+
+.separador{
+    margin: auto;
+    padding: 20px;
+}
