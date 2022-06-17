@@ -23,3 +23,19 @@
     margin: auto;
     padding: 20px;
 }
+
+
+.subscribe input[type="text"] {
+  border: none;
+  border-bottom: 1px solid white;
+}
+.subscribe input[type="text"]:focus {
+  outline: none;
+}
+.subscribe ::placeholder {
+  color: white;
+}
+.subscribe input[type="submit"] {
+  background-color: grey;
+  color: var(--yellow-color);
+}
