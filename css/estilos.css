@@ -95,6 +95,8 @@ padding: 0 35px;
 }
 
 
+/* cartas de comics */
+
 .img22 img{
   position: relative;
   display: block;
@@ -115,3 +117,14 @@ padding: 0 35px;
   
   }
   
+  .background-color{
+  color: blue;
+  border-color: blue;
+  }
+  .background-color:hover{
+    background-color: blue;
+  }
+
+  .color_bkg{
+    background-color: #90979d;
+  }

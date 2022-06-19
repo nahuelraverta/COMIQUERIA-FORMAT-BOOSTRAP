@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="/css/estilos.css">
 </head>
 
-<body class="bg-dark p-2 text-white bg-opacity-75">
+<body class="bg-secondary p-2 text-dark text-center bg-opacity-75">
     <!-- HEADER -->
     <header>
         <nav class="navbar navbar-expand-lg bg-opacity-75">
@@ -53,19 +53,20 @@
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
+                        <input class="form-control me-2" type="search" placeholder="Titulo, Editorial, Autor" aria-label="Search">
+                        <button class="btn btn-outline-success background-color" type="submit">Buscar</button>
                     </form>
                 </div>
             </div>
         </nav>
     </header>
+    <hr class="separador">
 
     <main>
         <h2 class="bienvenido text-center">ULTIMAS NOVEDADES</h2>
         <div class="container">
             <!-- SLIDER - CARRUSeL -->
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div id="carouselExampleControls" class="carousel slide bg-dark" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="img/ofertas 1.jpg" class="d-block w-100 mx-auto" alt="E32021">
@@ -132,7 +133,7 @@
                 <h2>COMO COMPRAR</h2>
 
                 <div class="accordion" id="accordionExample">
-                    <div class="accordion-item">
+                    <div class="accordion-item color_bkg">
                       <h2 class="accordion-header" id="headingOne">
                         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                           COMO COMPRAR
@@ -159,8 +160,8 @@
                             </button>
                           </h2>
                           <div id="collapsetwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <div class="container text-lg-start">
+                            <div class="accordion-body color_bkg">
+                                <div class="container text-lg-start ">
                                     <p>.Elige el producto que deseas comprar.</p>
                                     <p> .Haz clic en el botón de "Agregar al carrito". Esto agregará el producto a tu carrito y te
                                         llevará al mismo.</p>
@@ -227,18 +228,13 @@
                 <section class="mt-5">
                     <!-- Grid row-->
                     <div class="row text-center d-flex justify-content-center pt-5">
-                        <!-- COLUMNA NUEVA - GRID-->
-                        <div class="col-md-2">
-                            <h6 class="text-uppercase font-weight-bold">
-                                <a href="#!" class="text-white">NOSOTROS</a>
-                            </h6>
-                        </div>
+
 
 
                         <!-- COLUMNA NUEVA - GRID -->
                         <div class="col-md-2">
                             <h6 class="text-uppercase font-weight-bold">
-                                <a href="#!" class="text-white">EVENTOS</a>
+                                <a href="index.html" class="text-white">INICIO</a>
                             </h6>
                         </div>
 
@@ -246,14 +242,14 @@
                         <!-- COLUMNA NUEVA - GRID-->
                         <div class="col-md-2">
                             <h6 class="text-uppercase font-weight-bold">
-                                <a href="#!" class="text-white">PREMIOS</a>
+                                <a href="novedades.html" class="text-white">NOVEDADES</a>
                             </h6>
                         </div>
 
                         <!-- COLUMNA NUEVA - GRID -->
                         <div class="col-md-2">
                             <h6 class="text-uppercase font-weight-bold">
-                                <a href="#!" class="text-white">CONTACTO</a>
+                                <a href="contactos.html" class="text-white">CONTACTO</a>
                             </h6>
                         </div>
                         <!-- Grid column -->
@@ -268,10 +264,8 @@
                 <section class="mb-5">
                     <div class="row d-flex justify-content-center">
                         <div class="col-lg-8">
-                            <p>
-                                VG EVENTS es una web dedicada a la recopilacion y busqueda de los eventos mas
-                                importantes de
-                                los videojuegos.
+                            <p class="text-center">
+                                Comix es una web dedicada a la busqueda de ofertas y comics comercializados en Argentina. Esta web detalla y recopila diferentes titulos comercializados en las comiquerias adheridas con el objetivo de obtener la mejor oferta de ese comic que tanto estas buscando.
                             </p>
                         </div>
                     </div>
@@ -280,20 +274,20 @@
 
                 <!-- Seccion Redes Sociales -->
                 <section class="text-center mb-5">
-                    <a href="" class="text-white me-4">
+                    <a href="" class="text-white me-4 text-decoration-none">
                         <i class="fab fa-facebook-f"></i>
                     </a>
-                    <a href="" class="text-white me-4">
+                    <a href="" class="text-white me-4 text-decoration-none">
                         <i class="fab fa-twitter"></i>
                     </a>
-                    <a href="" class="text-white me-4">
+                    <a href="" class="text-white me-4 text-decoration-none">
                         <i class="fab fa-google"></i>
                     </a>
-                    <a href="" class="text-white me-4">
+                    <a href="" class="text-white me-4 text-decoration-none">
                         <i class="fab fa-instagram"></i>
                     </a>
                     </a>
-                    <a href="" class="text-white me-4">
+                    <a href="" class="text-white me-4 text-decoration-none">
                         <i class="fab fa-github"></i>
                     </a>
                 </section>
